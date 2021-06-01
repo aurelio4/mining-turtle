@@ -1,4 +1,4 @@
-os.loadAPI("json")
+os.loadAPI("dkjson")
 local ws, err = http.websocket("ws://68.132.33.193:5757")
 
 if err then

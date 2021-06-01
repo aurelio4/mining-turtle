@@ -1,5 +1,4 @@
 {
-  "type": "module",
   "name": "mining-turtle",
   "version": "1.0.0",
   "main": "./lib/index.js",
@@ -14,6 +13,7 @@
     "node-json-db": "^1.1.0",
     "p-queue": "^6.6.2",
     "patch-package": "^6.2.2",
+    "path": "^0.12.7",
     "postinstall-postinstall": "^2.1.0",
     "puppeteer-core": "^5.5.0",
     "tslint": "^6.1.3",

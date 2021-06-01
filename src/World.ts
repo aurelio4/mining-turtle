@@ -35,11 +35,11 @@ class World extends EventEmitter {
         this.emit('update', this.getAllBlocks())
     }
 
-    getBlock(x: Number, y: Number, z: Number) {
+    getBlock(x: Number, y: Number, z: Number): any {
 		return this.db.getData(`/world/${x},${y},${z}`)
 	}
 
-    getAllBlocks() {
+    getAllBlocks(): { [index: string]: any } {
         return this.db.getData('/world')
     }
 }
